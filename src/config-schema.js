@@ -357,7 +357,7 @@ const configSchema = {
         description: 'Experimental: Use the new Tree-sitter parsing system for supported languages.'
       },
       colorProfile: {
-        description: "Specify whether Atom should use the operating system's color profile (recommended) or an alternative color profile.<br>Changing this setting will require a relaunch of Atom to take effect.",
+        description: "Specify whether Atom should use the operating system's color profile (recommended) or an alternative color profile.",
         type: 'string',
         default: 'default',
         enum: [
